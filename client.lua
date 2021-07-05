@@ -93,7 +93,7 @@ Citizen.CreateThread(function()
 				PopScaleformMovieFunctionVoid()
                 
                 PushScaleformMovieFunction(scaleform, "SET_SCORES_DISPLAY")
-				PushScaleformMovieFunctionParameterString(showScore)
+				PushScaleformMovieFunctionParameterBool(showScore)
 				PopScaleformMovieFunctionVoid()
 			end
 			if IsControlJustReleased(0, 145) then
